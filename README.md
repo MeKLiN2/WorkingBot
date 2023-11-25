@@ -17,3 +17,5 @@ refresh four times until you get the captcha, and solve it for your bot. close t
 
 once the captcha is solved, the site will probably let you reconnect if you do it fast enough, with the bot. there is an occasional endpoint error which may just be debugging not knowing what to print.
 the endpoint is retrieved from the api token and is always successful. the login part is a problem, because you can only login so many times per day. there must be a way to make the bot keep its login, and not run the first part of the script where it logs in, and just make it connect to a room, and if it isnt in the room, it still is 'active' in the terminal waiting to be told to join the room.
+
+this is the code i had right after i got it to work, if you are looking for where i am now, probably adding this stuff to nortbot, or trying to get it to respond to ping as well as let me type to the chat through my terminal, which i will add to a different repository called mekbot
